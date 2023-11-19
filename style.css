@@ -30,13 +30,97 @@ body{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
 .checkbox{
-  cursor: pointer;
+  /** cursor: pointer;**/
 
 }
 .checkbox:hover {
   color: blue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.checkbox:hover {
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 30px;
+  margin-left: 2px;
+  
+/**RGB*// 
+}
+.checkbox:hover {
+  
+  border: none;
+  outline: none;
+  /** color: rgb(0, 0, 0);**/
+ /** background: #f1f1f1;**/
+ /** cursor: pointer;**/
+  position: relative;
+  z-index: 0;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.checkbox:hover :before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.checkbox:hover :after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+}
+
+
+
+
 .title{
   color: #23234d;
   background-color: rgb(255, 255, 255);
