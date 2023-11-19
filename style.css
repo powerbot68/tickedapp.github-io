@@ -36,10 +36,6 @@ body{
 .checkbox:hover {
   color: blue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.checkbox:hover {
-  color: blue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   
   border-radius: 10px;
